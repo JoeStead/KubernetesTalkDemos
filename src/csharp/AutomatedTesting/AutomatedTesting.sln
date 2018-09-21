@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{682E8146-04D4-41D6-8681-240BEA88917F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3D822DDA-90F1-4ED2-A7F7-ECA66C90D731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedInfrastructureTests", "tests\AutomatedInfrastructureTests\AutomatedInfrastructureTests.csproj", "{20EF9AAF-E9B7-4994-BED1-4D025D2F5432}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20EF9AAF-E9B7-4994-BED1-4D025D2F5432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20EF9AAF-E9B7-4994-BED1-4D025D2F5432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20EF9AAF-E9B7-4994-BED1-4D025D2F5432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20EF9AAF-E9B7-4994-BED1-4D025D2F5432}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20EF9AAF-E9B7-4994-BED1-4D025D2F5432} = {3D822DDA-90F1-4ED2-A7F7-ECA66C90D731}
+	EndGlobalSection
+EndGlobal
