@@ -8,16 +8,13 @@ namespace AutomatedInfrastructureTests.KubernetesDeployers
 
         public Uri DeployedUri { get; }
 
-        public Uri DeployedIdentityServerUri { get; set; }
-
         public bool Success { get; }
 
-        public DeployedInstance(int id, Uri deployedUri, Uri deployedIdentityServerUri, bool success)
+        public DeployedInstance(int id, Uri deployedUri, bool success)
         {
-            this.Id = id;
-            this.DeployedUri = deployedUri;
-            this.DeployedIdentityServerUri = deployedIdentityServerUri;
-            this.Success = success;
+            Id = id;
+            DeployedUri = deployedUri;
+            Success = success;
         }
     }
 }

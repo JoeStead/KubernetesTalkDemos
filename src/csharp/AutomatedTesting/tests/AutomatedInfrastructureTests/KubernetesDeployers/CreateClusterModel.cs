@@ -12,10 +12,10 @@
 
         public CreateClusterModel(string clusterApiUrl, string deploymentSet, string deploymentTag, string dockerTag)
         {
-            this.ClusterApiUrl = clusterApiUrl;
-            this.DeploymentSet = deploymentSet;
-            this.DeploymentTag = deploymentTag;
-            this.DockerTag = dockerTag;
+            ClusterApiUrl = clusterApiUrl;
+            DeploymentSet = deploymentSet;
+            DeploymentTag = deploymentTag;
+            DockerTag = dockerTag;
         }
     }
 }

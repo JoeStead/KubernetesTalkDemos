@@ -18,12 +18,9 @@ namespace AutomatedInfrastructureTests
 
             await deployer.WaitForInstanceToBeHealthy(deployment.DeployedUri);
 
-            var apiClient = new HttpClient
-            {
-                BaseAddress = deployment.DeployedUri
-            };
+            var apiClient = new HttpClient();
 
-            var response = await apiClient.GetAsync("/api/users");
+            var response = await apiClient.GetAsync($"{deployment.DeployedUri}/secrets");
             
             Assert.Equal(HttpStatusCode.Unauthorized, response.StatusCode);
 
